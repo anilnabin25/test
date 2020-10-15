@@ -1,0 +1,11 @@
+build:
+  docker:
+    context: .
+    web: docker/Dockerfile
+  config:
+    RAILS_ENV: staging
+    PRE_COMPILE: true
+    DATABASE_URL: mysql2://b31d951cb339e2:87154f05@eu-cdbr-west-03.cleardb.net/heroku_18bf5ab998d61e5
+    SECRET_KEY_BASE: 03657a056da4a459ee1acaa029476f4c95125a986dd3bfb44f6241243bc2ff910cea9275e4af4c9d816ef4d1509d0ac9509b75f74a56dfb56f30ad0d2023b955
+run:
+  web: bin/rails server -p $PORT -b 0.0.0.0
