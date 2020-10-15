@@ -16,6 +16,7 @@ default: &default
   username: root
   password: root
   host: database
+  # socket: /tmp/mysql.sock
 
 development:
   <<: *default
@@ -52,4 +53,3 @@ production:
   database: oriai_relatedly_production
   username: oriai_relatedly
   password: <%= ENV['ORIAI_RELATEDLY_DATABASE_PASSWORD'] %>
-  url: <%= ENV['DATABASE_URL'] %>

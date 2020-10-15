@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/namespace-team/ruby2.6.5-alpine-mysql2/ruby2.6.5-alpine-mysql2:latest
+FROM docker.pkg.github.com/namespace-team/ruby2.6.5-alpine-mysql2/ruby2.7.2-alpine-mysql2:latest
 LABEL maintainer="namespace developers"
 
 ENV LANG=C.UTF-8 \

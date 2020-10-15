@@ -2,7 +2,7 @@ set -e
 
 echo "=== Copy .env and database.yml  ==="
 cp .env.sample .env
-cp config/database.yml.sample config/database.yml
+cp config/database.sample.yml config/database.yml
 echo "=== copy is done!  ==="
 
 echo "=== Execute docker-compose build... ==="

@@ -1,8 +1,24 @@
-### Getting Started with Setting up Environment
+# README
 
-```
-git clone git@github.com:namespace-team/oriai_relatedly.git
-cd oriai_relatedly
-sh docker/bootstrap.sh
-docker-compose up
-```
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
